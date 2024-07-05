@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Expense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>@website</h1>   
+    <h2>View Expense</h2>
+    
+    <label>Full Name:</label>
+    <input type="text" id="FullName" name="FullName"placeholder="Banana"><br>
+
+    <label>Amount:</label>
+    <input type="text" id="Amount" name="Amount"placeholder= 250.00><br>
+
+    <label>Date:</label>
+    <input type="text" id="date" name="date"placeholder= 2024-07-04><br>
+
+    <label>Category:</label>
+    <input type="text" id="Category" name="Category"placeholder= item><br>    
+    <br>
+  <a href="/edit_expense/{{ expense.id }}">Edit</a><br>
+    <a href="/delete_expense/{{ expense.id }}">Delete</a>
+
+</body>
+</html>
